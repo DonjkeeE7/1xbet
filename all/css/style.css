@@ -1,0 +1,262 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-blue-1: #0152d5;
+    --color-blue-2: #6eaffb;
+    --color-dark-1: #000d21;
+    --color-dark-2: #101b26;
+    --color-gray: #919090;
+}
+
+body {
+    background-color: #141414;
+}
+
+header,
+section {
+    margin-bottom: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-size: 'Golos Text';
+    line-height: var(--bs-body-line-height);
+}
+
+.main .container {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.main .container .all {
+    padding-top: 15%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+}
+
+.outline {
+    outline: 1px solid;
+    color: var(--color-gray);
+    margin-left: 5px;
+}
+
+h2 {
+    font-size: 56px;
+    color: white;
+    font-weight: 700;
+}
+
+.info-film {
+    font-size: 14px;
+    font-weight: 500;
+    color: #919090;
+}
+
+.rate {
+    color: white;
+    font-size: 16px;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-weight: 450;
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+.first-button {
+    font-size: 16px;
+    font-weight: 500;
+    width: 220px;
+    height: 50px;
+    background: linear-gradient(to right, var(--color-blue-1), var(--color-blue-2));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-button {
+    font-size: 16px;
+    font-weight: 500;
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(to right, var(--color-dark-1), var(--color-dark-2));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.third-button {
+    width: 50px;
+    height: 50px;
+}
+
+.mb-5 {
+    font-size: 38px;
+}
+
+.cards h5 {
+    font-size: 19px;
+    color: white;
+    font-weight: 700;
+}
+
+.cards img {
+    border-radius: 8px;
+}
+.cards .card-img{
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+.space h2{
+    line-height: 65px;
+}
+.space .container{
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.space .container .space-selection {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-bottom: 12%;
+}
+.insomnia .container .orange{
+    font-size: 14px;
+    background: linear-gradient(to right, #ff522e, #f0971a);
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.insomnia .price{
+    font-size: 44px;
+    font-weight: 700;
+    color: white;
+}
+.tab-content{
+    color: white;
+    font-size: 16px;
+}
+.row .col-lg-6{
+    width: 100%;
+    margin-top: 30px;
+}
+.tab>label{
+    font-size: 14px;
+    font-weight: 600;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+.row-cols-2>* {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.insomnia .container img{
+    border-radius: 8px;
+}
+.liveTV {
+    background-color: #1f1f1f;
+}
+.liveTV h3 {
+    font-size: 38px;
+    font-weight: 700;
+    color: white;
+    line-height: 1.2;
+}
+.blue{
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(-90deg, #6fb1fc 0%, #0353d5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+}
+.justify-content-between {
+    justify-content: space-between !important;
+}
+.flex-row {
+    flex-direction: row !important;
+}
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.subscribe .row .col-lg-6 {
+    width: auto;
+    margin-top: 30px;
+}
+.subscribe .container .vse {
+    background: linear-gradient(to right, #111d31, #212b36);
+    width: 100%;
+}
+.subscribe .container h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.subscribe .container p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.subscribe .container .form-control{
+    background:#141414 ;
+    border-color: #989898;
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+}
+.subscribe .container button{
+    background: linear-gradient(to right, #0e50bb, #90c0f7);
+    font-size: 14px;
+    gap: 12px;
+    justify-content: center;
+    width: 230px;
+    font-weight: 600;
+    height: 55px;
+}
+.subscribe{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.subscribe .container .vse h1{
+    color:#6fb1fc;
+}
+.form-label {
+    margin-bottom: .5rem;
+    color: white;
+}
+label {
+    display: inline-block;
+    color: white;
+}
+.text-secondary {
+    color: #f8f9fa !important;
+}
